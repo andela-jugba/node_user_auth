@@ -13,6 +13,7 @@ const multer = require('multer');
 const uploads = multer({dest: './uploads'});
 const mongo = require('mongodb');
 const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
 const db = mongoose.connection;
 
 var index = require('./routes/index');
