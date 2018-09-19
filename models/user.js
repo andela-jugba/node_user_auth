@@ -10,7 +10,7 @@ let db = mongoose.connection;
 const UserSchema = mongoose.Schema({
   username: {
     type: String,
-    index: true
+    index: true,
   },
   password: {
     type: String
